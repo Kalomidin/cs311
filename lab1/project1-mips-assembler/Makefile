@@ -1,9 +1,9 @@
-CC=gcc
+CC=g++
 
 default: runfile
 
-runfile.o: main.c 
-	$(CC) -c main.c -std=c99 -o runfile.o
+runfile.o: main.cpp 
+	$(CC) -c parser.cpp -std=c99 -o runfile.o
  
 runfile: runfile.o
 	$(CC) runfile.o  -o runfile
