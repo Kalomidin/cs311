@@ -8,7 +8,7 @@ lab1:
 	and	$11, $11, $0
 	addiu	$10, $10, 0x1
 	or	$6, $6, $0
-	jal	lab3
+	jal	 lab3
 lab3:
 	sll	$7, $6, 2
 	srl	$5, $4, 2
